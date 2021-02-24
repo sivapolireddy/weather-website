@@ -1,4 +1,3 @@
-console.log("how its going")
 
 const input = document.querySelector('input')
 const output = document.querySelector('p')
