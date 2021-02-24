@@ -1,0 +1,18 @@
+body {
+    margin: 0 auto;
+    max-width:700px;
+    background-color: whitesmoke;
+}
+
+
+h1 {
+    margin: 20px;
+    font-size: 50px;
+}
+
+a {
+    color:rgb(189, 223, 197);
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
