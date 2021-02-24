@@ -8,6 +8,7 @@ const forecast= require('./forecast.js')
 
 
 const app = express()
+const port=process.env.PORT || 3000
 const publicpath= path.join(__dirname,'../public')
 const viewspath= path.join(__dirname,'../template/views')
 const partialpath= path.join(__dirname,'../template/partials')
@@ -83,6 +84,6 @@ app.get("/help/*",(req,res) => {
      })
  })
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('its working')
 })
